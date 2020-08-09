@@ -1,0 +1,23 @@
+{
+  "name": "azerimed",
+  "version": "1.0.0",
+  "description": "Oftalmoloqlar Cəmiyyəti",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "azerimed",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

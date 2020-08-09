@@ -1,0 +1,34 @@
+.main-slider .carousel .carousel-inner {
+  position: relative; }
+  .main-slider .carousel .carousel-inner .carousel-item::before {
+    content: '';
+    width: 70%;
+    height: 100%;
+    background: url("../img/shape-slider.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    z-index: 2; }
+  .main-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+    width: 40%;
+    top: 35%; }
+    .main-slider .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+      line-height: 55px;
+      text-shadow: 2px 0px 0px #ddd;
+      margin-bottom: 30px; }
+    .main-slider .carousel .carousel-inner .carousel-item .carousel-caption a {
+      position: absolute;
+      left: 0; }
+
+.main-slider .carousel .carousel-indicators {
+  position: absolute;
+  left: 0;
+  width: 30%;
+  justify-content: flex-start; }

@@ -1,0 +1,73 @@
+.news{
+    width:100%;
+    margin-bottom:30px;
+
+    .news-in{
+        background-image: url("../img/aboutBg.jpg");
+        width:100%;
+        background-repeat: repeat-y;
+        background-position: center center;
+        padding-bottom:30px;
+    
+        header{
+            margin-bottom:30px;
+            .sec-title{
+                margin-top:30px;
+                border-bottom:3px solid $site-color;
+                width:30%;
+    
+                h4{
+                    font-size:30px;
+                    font-weight:800;
+                    text-transform: uppercase;
+                    font-family: 'Open Sans', sans-serif;
+                    color:#406fa6;
+                    
+                    text-align: center;
+                }
+                
+            }
+
+        }
+
+        .carousel-news{
+            .card{
+          
+                border-radius:1rem !important;
+
+                .card-header{
+                    padding:0px !important;
+                    position: relative;
+                    z-index:0;
+    
+                    .date-carousel{
+                        width:50%;
+                        background:rgba(64, 111, 166, 0.8);
+                        position: absolute;;
+                        z-index:2;
+                        bottom:0px;
+                        font-size:18px;
+                        color:#fff;
+                        padding:10px;
+                        font-weight:bold;
+                    }
+                }
+
+                .card-body{
+                    .btn-primary{  
+                        background: #6ec5ff; 
+                        background: -moz-linear-gradient(left, #6ec5ff 27%, #2154cf 100%); 
+                        background: -webkit-linear-gradient(left, #6ec5ff 27%,#2154cf 100%); 
+                        background: linear-gradient(to right, #6ec5ff 27%,#2154cf 100%); 
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ec5ff', endColorstr='#2154cf',GradientType=1 );
+                        border:none;
+                        
+                    }
+                }
+    
+                
+            }
+
+        }
+    }
+}

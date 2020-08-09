@@ -1,0 +1,116 @@
+.news{
+    .sec-title{
+        border-bottom:2px solid $site-color;
+        width:15%;
+        margin-bottom:20px;
+
+        h4{
+            font-size:36px;
+            font-weight: bold;
+        }
+    }
+
+    .blog-image{
+        a{
+            display:block;
+
+            img{
+                width:100%;
+            }
+        }
+    }
+    .blog-content{
+        background:#fafafa;
+        padding:30px 30px;
+        position: relative;
+        top:-50px;
+        z-index:1;
+        width:90%;
+        transition: all .3s ease-in-out;
+
+        .blog-meta{
+            position: relative;
+
+            &::after{
+                content: '';
+                position: absolute;
+                background-color:#2154cf;
+                width:4px;
+                height:30px;
+                position: absolute;
+                top:-5px;
+                left:-30px;          
+            }
+
+           span{
+               font-weight: bold;
+               font-size:18px;
+               display:block;
+               margin-bottom:10px;
+           }
+           a{
+               font-size:18px;
+               font-weight:bold;
+               color:$site-color;
+           }
+        }
+
+       &:hover{
+           box-shadow: 1px 1px 1px $site-color;
+       }
+    }
+
+    .blog-details-wrap{
+
+        width:100%;
+
+        .blog-details{
+            .blog-img{
+               img{
+                  width:100%;
+               }
+            }
+
+            .blog-content{
+                background:#fafafa;
+                padding:30px 30px;
+                position: relative;
+                top:-50px;
+                z-index:1;
+                width:90%;
+                transition: none;
+
+                .blog-meta{
+                    position: relative;
+        
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        background-color:#2154cf;
+                        width:4px;
+                        height:30px;
+                        position: absolute;
+                        top:-5px;
+                        left:-30px;          
+                    }
+        
+                   span{
+                       font-weight: 800;
+                       font-size:18px;
+                       display:block;
+                       margin-bottom:10px;
+                   }
+  
+                   h4{
+                       margin-bottom:30px;
+                       font-weight:bold;
+                   }
+                }
+        
+               &:hover{
+                   box-shadow: none;
+               }
+            }
+        }
+    }
+}

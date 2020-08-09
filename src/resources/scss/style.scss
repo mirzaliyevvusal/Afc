@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:300;
+    color:#002c5e;
+}
+.page-wrapper{
+    width:100%;
+    min-width:300px;
+    margin:0 auto;
+    position:relative;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@import 'variables';
+@import 'header';
+@import 'slider';
+@import 'about';
+@import 'conference';
+@import 'news';
+@import 'footer';
+@import 'nav';
+@import 'team';
+@import 'newsp';
+@import 'appointment';
+@import 'galleriya';
+@import 'contact';
+@import 'register';
+
+

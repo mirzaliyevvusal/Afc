@@ -1,0 +1,69 @@
+.main-slider{
+
+    
+    .carousel{
+        .carousel-inner{
+            position: relative;
+
+           .carousel-item {
+
+            &::before{
+                content:'';
+                width:70%;
+                height: 100%;
+                background:url("../img/shape-slider.png");
+                background-repeat: no-repeat;
+                background-position: center center;
+                position: absolute;
+                bottom: 0;
+                left:0;
+                background-size:cover;
+                z-index:2;
+               }
+               
+                .carousel-caption {
+                   width:40%;
+                   top:35%;
+
+
+                   h5{
+                       font-size:40px;
+                       font-weight:bold;
+                       text-transform: uppercase;
+                       text-align: left;
+                       line-height: 55px;
+                       text-shadow: 2px 0px 0px #ddd;
+                       margin-bottom:30px;
+                    
+                   }
+
+                   a{
+                       position:absolute;
+                       left:0;
+
+                    
+                   }
+                   .btn-primary{  
+                        background: #2154cf; 
+                        background: -moz-linear-gradient(left, #2154cf 27%, #6ec5ff 100%); 
+                        background: -webkit-linear-gradient(left, #2154cf 27%,#6ec5ff 100%); 
+                        background: linear-gradient(to right, #2154cf 27%,#6ec5ff 100%);
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2154cf', endColorstr='#6ec5ff',GradientType=1 );
+                        border:none;
+                    }
+                    
+                }
+           }
+
+           
+        }
+
+        .carousel-indicators{
+            position: absolute;
+            left:0;
+            width:30%;
+           
+            justify-content:flex-start;
+        }
+    }
+}

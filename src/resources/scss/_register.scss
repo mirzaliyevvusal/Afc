@@ -1,0 +1,55 @@
+.contact-form{
+
+    .form-group{
+        input{
+            border:1px solid $site-color;
+            padding:10px;
+            line-height: 10px;
+            color:#c2defe !important;
+           
+        }
+        .form-control{
+            color:#c2defe !important;
+        }
+        label{
+            color:#406fa6;
+        }
+
+        ::placeholder{
+            color:#c2defe !important;
+        }
+    }
+
+    .btn-color{
+        background: #406fa6;
+        color:#fff;
+        font-size:16px;
+        padding:10px 20px;
+    }
+}
+
+.contact-info{
+    background: #406fa6;
+    padding:30px;
+
+    .contact-right{
+        ul{
+            color:#fff;
+
+            li{
+                margin-bottom:30px;
+                h6{
+                    font-size:18px;
+                    font-weight: bold;
+                    margin-bottom:20px;
+                }
+
+                .media-body{
+                    p{
+                        font-size:18px;
+                    }
+                }
+            }
+        }
+    }
+}

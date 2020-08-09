@@ -1,0 +1,82 @@
+.contact{
+    .contact-block{
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 40px 50px;
+
+        .contact-icon{
+            display: inline-block;
+            height: 93px;
+            width: 93px;
+            line-height: 93px;
+            font-size: 40px;
+            text-align: center;
+            border-radius: 999px;
+            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -o-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+        }
+        p{
+            margin-bottom:0px;
+            a{
+                color:#444;
+                &:hover{
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+
+    .contact-formwrapper{
+        padding: 60px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        h5{
+            margin-bottom: 20px;
+            margin-top: -4px;
+        }
+
+        .contact-formfield{
+            margin-top: 15px;
+            padding: 0;
+            border: 0;
+            border-bottom: 1px solid #dddddd;
+            font-size:14px;
+            padding-bottom:5px;
+
+            &:nth-child(5){
+                border:none;
+            }
+        }
+
+        input, select, textarea {
+            width: 100%;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+
+        .contact-button{
+            font-weight: 600;
+            font-size: 18px;
+            letter-spacing: 1px;
+            background: $site-color;
+            height: 50px;
+            line-height: 48px;
+            padding: 0 40px;
+            display: inline-block;
+            overflow: hidden;
+            position: relative;
+            color: #ffffff;
+            border: 1px solid #1cb9c8;
+            z-index: 1;
+            vertical-align: middle;
+        }
+    }
+
+
+    
+}
